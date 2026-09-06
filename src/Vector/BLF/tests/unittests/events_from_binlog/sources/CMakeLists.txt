@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.25)
 
 project(Vector_BLF_sample_generator
     VERSION 1.0.0)
