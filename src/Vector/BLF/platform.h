@@ -10,6 +10,11 @@
 
 #include <Vector/BLF/config.h>
 
+// Fixed-width integer types (uint8_t, uint32_t, ...) are used throughout this
+// library but were historically never included. Provide them from the prelude
+// so the library is self-contained and needs no force-include from consumers.
+#include <cstdint>
+
 /* GCC */
 #ifdef __GNUC__
 
