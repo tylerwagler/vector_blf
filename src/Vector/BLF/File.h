@@ -7,6 +7,7 @@
 #include <Vector/BLF/platform.h>
 
 #include <atomic>
+#include <exception> // std::exception_ptr / std::current_exception (libc++ needs this explicitly)
 #include <fstream>
 #include <thread>
 
